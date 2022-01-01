@@ -1,0 +1,97 @@
+body {
+    background: url(images/Brown-Backgrounds23.jpg);
+}
+
+#main-image__top{
+    padding-top: 2.5rem;
+    position: inherit;  
+
+    }
+    
+    
+.main-top__image {
+    max-height: 20rem;
+    vertical-align: middle;
+    width: 100%;
+    }
+       
+.main-top {
+    max-height: .5rem;
+    vertical-align: middle;
+
+    }
+
+#main-flex {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    position: relative;
+    margin-top: 20rem;
+    width: 100%;
+    column-gap: 1rem;
+
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+@media screen and (max-width: 550px)  {
+    #main-flex {
+      margin-top: 0%;
+
+    }
+
+  }
+.main-words {
+    font-size: 65px;
+
+    display: none;
+}
+  @media screen and (max-width: 550px)  {
+    .main-words {
+        text-align: center;
+        margin-top: 10rem;
+        display: inline-block;
+        margin-top: 5rem;
+    }
+  }*
+  
+.flexbox-container1 {
+    display:flex;
+    flex-direction: column;
+
+    width: 50%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+
+
+}
+
+
+
+.flexbox-item {
+font-size: 1rem;
+
+}
+
+
+
+
+
+.flexbox-container2 {
+    display:flex;
+    flex-direction: column;
+
+
+    width: 50%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.steak-image {
+    max-width: 100%;
+    width: 8rem;
+    max-width: 400px;
+    height: 8rem;
+    border-radius: 200px;
+    margin-top: 2em;
+}
